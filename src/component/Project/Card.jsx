@@ -2,6 +2,7 @@ import React from 'react';
 import Information from './Information';
 import Keyword from './Keyword';
 import style from './Project.module.css';
+import Shadow from './Shadow';
 
 const Card = (props) => (
     <div className={style.card}>
@@ -10,6 +11,7 @@ const Card = (props) => (
             <Information title={props.information['title']}>{props.information['detail']}</Information>
             <Keyword keywords={props.information['keywords']}></Keyword>
         </div>
+        <Shadow />
     </div>
 );
 
