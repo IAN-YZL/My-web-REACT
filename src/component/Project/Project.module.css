@@ -1,0 +1,51 @@
+.project {
+    position: relative;
+    margin-top: 100px; }
+    .project-row {
+      position: relative;
+      display: flex;
+      width: 80%;
+      margin: 0 auto; }
+    .card {
+      width: 45%;
+      max-width: 673px;
+      border: 0.5px solid #1E56A0;
+      opacity: 1;
+      margin: 0 auto;
+      position: relative;
+      text-align: center; }
+      .card__shadow {
+        position: absolute;
+        border-right: 2px solid #EACF79;
+        border-bottom: 2px solid #EACF79;
+        width: 100%;
+        height: 100%;
+        top: 2%;
+        left: 1.5%; }
+    .image {
+      width: 90%;
+      margin-top: 5%; }
+    .description {
+      text-align: left;
+      width: 90%;
+      margin: 0 auto; }
+    .title {
+      margin: 2% 0;
+      font: Bold 1.2rem Raleway;
+      color: #1E56A0; }
+    .detail {
+      font: 1rem Raleway;
+      color: #1E56A0;
+      margin: 3% 0; }
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%; }
+      .keywords p {
+        font: 1rem Raleway;
+        font-weight: 600;
+        margin: 0 5% 1.5% 0;
+        color: #1E56A0; }
+        .keywords p::before {
+          content: '#';
+          color: #1E56A0; }
