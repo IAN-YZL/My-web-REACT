@@ -1,0 +1,37 @@
+.footer {
+    position: relative;
+    top: 200px;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center; 
+}
+.logo {
+    width: 5%;
+    max-width: 100px;
+    min-width: 50px;
+    margin-bottom: 10px;
+}
+.social {
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+}
+.icon {
+    width: 33.3%;
+}
+.icon a:link {
+    color: black; 
+}
+.icon a:visited {
+    color: black; 
+}
+.copyright {
+    height: 30px;
+    background-color: #1E56A0;
+    line-height: 30px; 
+}
+.copyright p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+}
+
