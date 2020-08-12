@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from '../assets/ian-logo.png';
+import style from './Header.module.css';
 
 const Logo = () => (
     <div class="logo">
         <a href="../../../index.js">
-            <img className="logo__img" src={logo} alt="logo"></img>
+            <img className={style.logo__img} src={logo} alt="logo"></img>
         </a>
     </div>
 );
