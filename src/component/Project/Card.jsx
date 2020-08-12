@@ -9,7 +9,6 @@ const Card = (props) => (
         <div className={style.description}>
             <Information title={props.information['title']}>{props.information['detail']}</Information>
             <Keyword keywords={props.information['keywords']}></Keyword>
-
         </div>
     </div>
 );
