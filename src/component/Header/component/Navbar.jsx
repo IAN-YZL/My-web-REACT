@@ -1,11 +1,11 @@
 import React from 'react';
-import NavLink from './NavLink';
+import Item from './Item';
 
 const NavBar = () => (
-    <nav>
-        <NavLink link="#">Home</NavLink>
-        <NavLink link="#">Project</NavLink>
-        <NavLink link="#">About</NavLink>
+    <nav className="nav">
+        <Item link="#">Home</Item>
+        <Item link="#">Project</Item>
+        <Item link="#">About</Item>
     </nav>
 
 );
