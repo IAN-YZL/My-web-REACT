@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Header.module.css';
+import style from './Header.module.scss';
 
 const Item = (props) => (
     <li className={style.nav__item}>

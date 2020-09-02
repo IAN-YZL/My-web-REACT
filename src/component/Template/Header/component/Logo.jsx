@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/ian-logo.png';
-import style from './Header.module.css';
+import style from './Header.module.scss';
 
 const Logo = () => (
     <div class="logo">
