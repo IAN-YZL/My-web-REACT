@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../../component/Project';
+import Project from './component/Project';
 
 const Home = () => (
     <div>
