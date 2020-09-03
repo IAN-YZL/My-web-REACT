@@ -3,7 +3,7 @@ import avatar from './assets/Ian_Yin.jpeg';
 import style from './Avatar.module.scss';
 
 const Avatar = () => (
-    <div >
+    <div className={style.container}>
         <img src={avatar} alt="avatar" className={style.avatar} />
     </div>
 );

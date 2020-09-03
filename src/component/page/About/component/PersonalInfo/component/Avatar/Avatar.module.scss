@@ -1,4 +1,9 @@
 .avatar {
-    width: 350px;
-    border-radius: 350px;
+    width: 100%;
+    border: 1px solid #EACF79;
+    border-radius: 50%;
+}
+.container {
+    width: 40%;
+    min-width: 250px;
 }
