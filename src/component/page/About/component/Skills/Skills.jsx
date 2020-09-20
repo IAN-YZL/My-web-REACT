@@ -1,7 +1,7 @@
 import React from 'react';
 import SkillElement from './SkillElement';
 
-class Skills {
+class Skills extends React.Component {
     constructor(props) {
         super(props);
         const skills = [
