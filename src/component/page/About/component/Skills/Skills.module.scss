@@ -1,0 +1,18 @@
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.element_box {
+    // min-width: 60px;
+    // max-width: 100px;
+    text-align: center;
+    padding: 20px;
+}
+.element_box img {
+    height: 50px;
+
+}
